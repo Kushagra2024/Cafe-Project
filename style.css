@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #131313;
+}
+
+body {
+    background-color: #ebebec;
+    position: relative;
+    padding-bottom: 60px;
+    min-height: 100vh;
+}
+
+/* #cafe_img {
+    width: 100vw;
+    height: 18vh;
+    
+    position: fixed;
+    top: 0px;
+
+    background-image: url(./Cafe\ image.jpeg);
+    background-size: 142%;
+    background-position-y: -46px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+
+    z-index: -1;
+} */
+
+/* #cafe_img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom, rgb(0 0 0 / 10%) 0%, rgb(36 36 36 / 50%) 100%);
+} */
+
+/* #container {
+    width: 100vw;
+    height: 100vh;
+
+    padding-top: 8px;
+
+    position: relative;
+    top: 16vh;
+
+    background-color: #ebebec;
+    filter: drop-shadow(0px 0px 20px black);
+
+    border-radius: 5px;
+
+    z-index: 1;
+} */
+
+#logo_text {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    color: #431203;
+    position: fixed;
+    top: 0px;
+    padding: 5px 0px;
+    z-index: 5;
+}
+
+#menu_nav_container {
+    width: 100vw;
+    padding: 0 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    margin-top: 60px;
+}
+
+.tab {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+    transition: all 0.1s ease;
+}
+
+.tab.active {
+    scale: 1.1;
+}
+
+.tab_img {
+    width: 48px;
+    height: 50px;
+    padding: 5px 8px;
+    border-radius: 12px;
+    transition: all 0.1s ease;
+}
+
+.tab_img.active {
+    background: linear-gradient(90deg, #c2181d 0%, #F4511E 100%);
+    filter: drop-shadow(3px 3px 5px #808080ab);
+}
+
+.tab_text {
+    color: #37474F;
+    font-size: 14px;
+    transition: all 0.1s ease;
+}
+
+.tab_text.active {
+    color: #131313;
+    font-weight: 600;
+    text-shadow: 3px 3px 5px #808080ab;
+}
+
+.menu {
+    display: none;
+}
+.menu.show {
+    display: block;
+}
+
+.menu_heading {
+    color: #131313;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.popular_card_container {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 8px;
+    padding: 0px 8px;
+}
+
+.menu_card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.menu_img {
+    width: 80%;
+    height: 14.2vh;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    margin: auto;
+}
+
+.menu_img>img {
+    width: 177%;
+    position: absolute;
+    left: -46px;
+    top: -24px;
+}
+
+.menu_disc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    padding: 6.5px;
+}
+
+#beverages_list,
+#food_list {
+    width: 100vw;
+    padding: 0px 10px 0px 5px;
+    white-space: nowrap;
+    overflow-x: scroll;
+    /* margin-bottom: 10px; */
+}
+#beverages_list::-webkit-scrollbar,
+#food_list::-webkit-scrollbar {
+    display: none;
+}
+
+#beverages_list > h4,
+#food_list > h4 {
+    display: inline-block;
+    border: 1px solid #d8d5f2;
+    border-radius: 17px;
+    padding: 7px 11px;
+    background-color: #fdfdfd;
+    color: #37474F;
+    margin-top: 5px;
+    transition: all 0.1s ease;
+}
+#beverages_list > h4.active,
+#food_list > h4.active {
+    background: linear-gradient(90deg, #c2181d 0%, #F4511E 100%);
+    color: white;
+    scale: 1.1;
+    box-shadow: 1px 1px 0px 0px #00000059;
+}
+
+.beverage_card_container,
+.food_card_container {
+    width: 100vw;
+    padding: 0px 10px;
+}
+
+.beverage_card,
+.food_card{
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.beverage_card.show,
+.food_card.show {
+    display: flex;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0px;
+    height: 51px;
+    width: 100%;
+    background: linear-gradient(90deg, #c2181d 0%, #F4511E 100%);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 50% 50% 0px 0px;
+    filter: drop-shadow(5px -2px 5px grey);
+    border-top: 3px solid #ffffffba;
+    display: flex;
+    justify-content: center;
+}
+
+#footer > a {
+    text-decoration: none;
+}
+
+#footer span {
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    vertical-align: top;
+    margin-right: 2px;
+}
+
+#footer img {
+    width: 25px;
+}
+
+/* #todays_special:active {
+    scale: 0.9;
+} */
+
+/* hr {
+    border-top: 3px solid #bbbbbb;
+    width: 90%;
+    margin: auto;
+} */
+
+/* #menu {
+    margin-top: 10px;
+
+    height: 100vh;
+    width: 100vw;
+} */
+
+/* #menu ul {
+    display: inline-block;
+} */

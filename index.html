@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>Home Page</title>
+</head>
+
+<body>
+    <!-- <div id="cafe_img"></div> -->
+    <!-- <div id="container">
+        <div id="todays_special">
+            <img src="./Todays Special.png" alt="">
+        </div>
+    </div> -->
+
+    <!-- Cafe Name -->
+    <div id="logo_text">Annie`s Cafeteria</div>
+
+    <!-- Navigation bar -->
+    <div id="menu_nav_container">
+        <div class="tab active" id="popular">
+            <img src="./popular.png" class="tab_img active">
+            <p class="tab_text active">Popular</p>
+        </div>
+        <div class="tab" id="beverage">
+            <img src="./beverage.png" class="tab_img">
+            <p class="tab_text">Beverages</p>
+        </div>
+        <div class="tab" id="food">
+            <img src="./food.png" class="tab_img">
+            <p class="tab_text">Food</p>
+        </div>
+    </div>
+
+    <!-- Menu Container -->
+    <div id="menu_container">
+        <div class="menu show" id="popular">
+            <h2 class="menu_heading" id="popular">Popular</h2>
+            <div class="popular_card_container">
+                <div class="menu_card">
+                    <div class="menu_img">
+                        <img src="./spaghetti.jpg" alt="">
+                    </div>
+                    <div class="menu_disc">
+                        <span class="dish_name">Speghetti</span>
+                        <span class="dish_price">₹275</span>
+                    </div>
+                </div>
+                <div class="menu_card">
+                    <div class="menu_img">
+                        <img src="./spaghetti.jpg" alt="">
+                    </div>
+                    <div class="menu_disc">
+                        <span class="dish_name">Speghetti</span>
+                        <span class="dish_price">₹275</span>
+                    </div>
+                </div>
+                <div class="menu_card">
+                    <div class="menu_img">
+                        <img src="./spaghetti.jpg" alt="">
+                    </div>
+                    <div class="menu_disc">
+                        <span class="dish_name">Speghetti</span>
+                        <span class="dish_price">₹275</span>
+                    </div>
+                </div>
+                <div class="menu_card">
+                    <div class="menu_img">
+                        <img src="./spaghetti.jpg" alt="">
+                    </div>
+                    <div class="menu_disc">
+                        <span class="dish_name">Speghetti</span>
+                        <span class="dish_price">₹275</span>
+                    </div>
+                </div>
+                <div class="menu_card">
+                    <div class="menu_img">
+                        <img src="./spaghetti.jpg" alt="">
+                    </div>
+                    <div class="menu_disc">
+                        <span class="dish_name">Speghetti</span>
+                        <span class="dish_price">₹275</span>
+                    </div>
+                </div>
+                <div class="menu_card">
+                    <div class="menu_img">
+                        <img src="./spaghetti.jpg" alt="">
+                    </div>
+                    <div class="menu_disc">
+                        <span class="dish_name">Speghetti</span>
+                        <span class="dish_price">₹275</span>
+                    </div>
+                </div>
+                <div class="menu_card">
+                    <div class="menu_img">
+                        <img src="./spaghetti.jpg" alt="">
+                    </div>
+                    <div class="menu_disc">
+                        <span class="dish_name">Speghetti</span>
+                        <span class="dish_price">₹275</span>
+                    </div>
+                </div>
+                <div class="menu_card">
+                    <div class="menu_img">
+                        <img src="./spaghetti.jpg" alt="">
+                    </div>
+                    <div class="menu_disc">
+                        <span class="dish_name">Speghetti</span>
+                        <span class="dish_price">₹275</span>
+                    </div>
+                </div>
+                <div class="menu_card">
+                    <div class="menu_img">
+                        <img src="./spaghetti.jpg" alt="">
+                    </div>
+                    <div class="menu_disc">
+                        <span class="dish_name">Speghetti</span>
+                        <span class="dish_price">₹275</span>
+                    </div>
+                </div>
+                <div class="menu_card">
+                    <div class="menu_img">
+                        <img src="./spaghetti.jpg" alt="">
+                    </div>
+                    <div class="menu_disc">
+                        <span class="dish_name">Speghetti</span>
+                        <span class="dish_price">₹275</span>
+                    </div>
+                </div>
+                <div class="menu_card">
+                    <div class="menu_img">
+                        <img src="./spaghetti.jpg" alt="">
+                    </div>
+                    <div class="menu_disc">
+                        <span class="dish_name">Speghetti</span>
+                        <span class="dish_price">₹275</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu" id="beverage">
+            <div id="beverages_list">
+                <h4 class="menu_heading active" id="kadak_chai">Kadak Chai</h4>
+                <h4 class="menu_heading" id="hot_coffee">Hot Coffee</h4>
+                <h4 class="menu_heading" id="milkshake">Milkshake</h4>
+                <h4 class="menu_heading" id="desserts">Desserts</h4>
+                <h4 class="menu_heading" id="cold_coffee">Cold Coffee</h4>
+                <h4 class="menu_heading" id="mocktail">Mocktails</h4>
+                <h4 class="menu_heading" id="premium_mocktail">Premium Mocktails</h4>
+                <h4 class="menu_heading" id="ice_cream">Ice Creams</h4>
+                <h4 class="menu_heading" id="cold_drink">Cold Drink</h4>
+            </div>
+            <div class="beverage_card_container">
+                <div class="beverage_card show" id="kadak_chai">
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Doodh Patti Chai</span>
+                            <span class="dish_price">₹20</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Adrak Chai</span>
+                            <span class="dish_price">₹25</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">Chocholate Chai</span>
+                            <span class="dish_price">₹30</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">Lemon Tea</span>
+                            <span class="dish_price">₹40</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">Green Tea</span>
+                            <span class="dish_price">₹40</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">Lemon Tea with Honey</span>
+                            <span class="dish_price">₹50</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="beverage_card" id="hot_coffee">
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Regular Coffee</span>
+                            <span class="dish_price">₹35</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="beverage_card" id="milkshake">
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Pan Shake</span>
+                            <span class="dish_price">₹79</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Vanilla Shake</span>
+                            <span class="dish_price">₹89</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Butter Scotch Shake</span>
+                            <span class="dish_price">₹89</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Mango Milkshake</span>
+                            <span class="dish_price">₹99</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Chocolate Milkshake</span>
+                            <span class="dish_price">₹99</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Oreo Milkshake</span>
+                            <span class="dish_price">₹99</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Kitkat Milkshake</span>
+                            <span class="dish_price">₹99</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Strawberry Milkshake</span>
+                            <span class="dish_price">₹109</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Pineapple Milkshake</span>
+                            <span class="dish_price">₹109</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Black Current Milkshake</span>
+                            <span class="dish_price">₹119</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Blue Berry Milkshake</span>
+                            <span class="dish_price">₹129</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="beverage_card" id="desserts">
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Choco Lava</span>
+                            <span class="dish_price">₹89</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Brownie</span>
+                            <span class="dish_price">₹89</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Brownie with Ice Cream</span>
+                            <span class="dish_price">₹129</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="beverage_card" id="cold_coffee">
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Classic Colf Coffee</span>
+                            <span class="dish_price">₹79</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Cold Coffee with Ice Cream</span>
+                            <span class="dish_price">₹99</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Hazelnut Premium</span>
+                            <span class="dish_price">₹119</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Irish Cream</span>
+                            <span class="dish_price">₹119</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="beverage_card" id="mocktail">
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Mojito</span>
+                            <span class="dish_price">₹89</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Green Apple Mojito</span>
+                            <span class="dish_price">₹99</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Watermelon Mojito</span>
+                            <span class="dish_price">₹99</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Peach Mojito</span>
+                            <span class="dish_price">₹99</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Ice Tea</span>
+                            <span class="dish_price">₹99</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="beverage_card" id="premium_mocktail">
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Blue Lagoon</span>
+                            <span class="dish_price">₹129</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Chilli Guava</span>
+                            <span class="dish_price">₹129</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Spicy Mango</span>
+                            <span class="dish_price">₹129</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Pinacolda</span>
+                            <span class="dish_price">₹139</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Blue Berry</span>
+                            <span class="dish_price">₹139</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="beverage_card" id="ice_cream">
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Vanilla Ice Cream</span>
+                            <span class="dish_price">₹49</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Chocolate Ice Cream</span>
+                            <span class="dish_price">₹59</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Strawberry Ice Cream</span>
+                            <span class="dish_price">₹59</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Butter Scotch Ice Cream</span>
+                            <span class="dish_price">₹69</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="beverage_card" id="cold_drink">
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Coca Cola</span>
+                            <span class="dish_price">₹39</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Sprite</span>
+                            <span class="dish_price">₹39</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu" id="food">
+            <div id="food_list">
+                <h4 class="menu_heading active" id="maska_bun">Maska Bun</h4>
+                <h4 class="menu_heading" id="burgers">Burgers</h4>
+                <h4 class="menu_heading" id="sandwiches">Sandwiches</h4>
+                <h4 class="menu_heading" id="garlic_bread">Garlic Bread</h4>
+                <h4 class="menu_heading" id="maggie">Maggie</h4>
+                <h4 class="menu_heading" id="french_fries">French Fries</h4>
+                <h4 class="menu_heading" id="appetizers">Appetizers</h4>
+                <h4 class="menu_heading" id="soups">Soups</h4>
+                <h4 class="menu_heading" id="pasta">Pasta</h4>
+                <h4 class="menu_heading" id="pizza">Pizza</h4>
+                <h4 class="menu_heading" id="momos">Momos</h4>
+            </div>
+            <div class="food_card_container">
+                <div class="food_card show" id="maska_bun">
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Maska Bun Special</span>
+                            <span class="dish_price">₹49</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Maska Bun with Jam</span>
+                            <span class="dish_price">₹59</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">Bun Masala</span>
+                            <span class="dish_price">₹59</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_card" id="burgers">
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Aloo Burger</span>
+                            <span class="dish_price">₹49</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Veg Tikki Burger</span>
+                            <span class="dish_price">₹69</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Veg Burger</span>
+                            <span class="dish_price">₹89</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Cheese Burger</span>
+                            <span class="dish_price">₹99</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Paneer Burger</span>
+                            <span class="dish_price">₹99</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_card" id="sandwiches">
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Garlic Chesse Sandwich</span>
+                            <span class="dish_price">₹69</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Cheese Grilled Sandwich</span>
+                            <span class="dish_price">₹79</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Corn & Cheese Grilled Sandwich</span>
+                            <span class="dish_price">₹89</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Veg Cheese Grilled Sandwich</span>
+                            <span class="dish_price">₹89</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Tandoori Paneer Sandwich</span>
+                            <span class="dish_price">₹99</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_card" id="garlic_bread">
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Cheese Garlic Bread</span>
+                            <span class="dish_price">₹89</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Chilli Cheese Garlic Bread</span>
+                            <span class="dish_price">₹99</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Veg Cheese Garlic Bread</span>
+                            <span class="dish_price">₹99</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_card" id="maggie">
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Desi Maggie</span>
+                            <span class="dish_price">₹69</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Corn Maggie</span>
+                            <span class="dish_price">₹79</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Chatori Maggie</span>
+                            <span class="dish_price">₹89</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Butter Maggie</span>
+                            <span class="dish_price">₹89</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Cheese Maggie</span>
+                            <span class="dish_price">₹99</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Makhni Maggie</span>
+                            <span class="dish_price">₹99</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Corn Cheese Maggie</span>
+                            <span class="dish_price">₹129</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_card" id="french_fries">
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Plain Fries</span>
+                            <span class="dish_price">₹69</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Masala French Fries
+                            </span>
+                            <span class="dish_price">₹79</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Peri Peri Fries</span>
+                            <span class="dish_price">₹89</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">V Crisper</span>
+                            <span class="dish_price">₹99</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_card" id="appetizers">
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Potato Cheese Shots</span>
+                            <span class="dish_price">₹89</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Veg Spring Roll</span>
+                            <span class="dish_price">₹99</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Chilli Potato</span>
+                            <span class="dish_price">₹129</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Garlic Chilli Potato</span>
+                            <span class="dish_price">₹139</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Honey Chilli Potato</span>
+                            <span class="dish_price">₹149</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Paneer Chilli Potato</span>
+                            <span class="dish_price">₹169</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Veg Manchurian Dry</span>
+                            <span class="dish_price">₹169</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_card" id="soups">
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Hot 'N' Sour Soup</span>
+                            <span class="dish_price">₹79</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Tomato Soup</span>
+                            <span class="dish_price">₹89</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Sweet Corn Soup</span>
+                            <span class="dish_price">₹89</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Vegetable Soup</span>
+                            <span class="dish_price">₹99</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Manchow Soup</span>
+                            <span class="dish_price">₹99</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_card" id="pasta">
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Masala Pasta</span>
+                            <span class="dish_price">₹99</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">White Sauce Pasta (ALFREDO)</span>
+                            <span class="dish_price">₹119</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Pink Sauce Pasta</span>
+                            <span class="dish_price">₹129</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Arrabiata Pasta</span>
+                            <span class="dish_price">₹139</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_card" id="pizza">
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Margherita Pizza</span>
+                            <span class="dish_price">₹149</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Cheese & Corn Pizza</span>
+                            <span class="dish_price">₹179</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Schezwan Paneer Pizza</span>
+                            <span class="dish_price">₹189</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Makhani Paneer Pizza</span>
+                            <span class="dish_price">₹199</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Garden Fresh Pizza</span>
+                            <span class="dish_price">₹199</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Onion & Paneer Pizza</span>
+                            <span class="dish_price">₹199</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Tandoori Paneer Pizza</span>
+                            <span class="dish_price">₹199</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Cheese Burst Pizza</span>
+                            <span class="dish_price">₹199</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_card" id="momos">
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Veg Momos (6 pcs)</span>
+                            <span class="dish_price">₹89</span>
+                        </div>
+                    </div>
+                    <div class="menu_card">
+                        <div class="menu_disc">
+                            <span class="dish_name">Paneer Momos (6 pcs)</span>
+                            <span class="dish_price">₹99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <a href="https://instagram.com/anniescafeteria?igshid=OGQ5ZDc2ODk2ZA==">
+            <span>Follow on </span>
+            <img src="./instagram.png" alt="">
+        </a>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
